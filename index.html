@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ciudadanía Digital 9: Supernova</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <header>
+        <h1><span class="book-icon">🧑‍💻</span> <strong>Ciudadanía Digital Misión 9: Supernova</strong></h1>
+        <div class="header-widgets">
+            <div class="timer-container">
+                <span id="timer">⏱️ 00:00</span>
+                <button id="startStop">Start</button>
+                <button id="reset">Reset</button>
+            </div>
+            <div class="theme-toggle">
+                <i class="fas fa-sun"></i>
+                <label class="switch">
+                    <input type="checkbox" id="theme-toggle-input">
+                    <span class="slider round"></span>
+                </label>
+                <i class="fas fa-moon"></i>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside class="activity-list">
+            <h2>Actividades</h2>
+            <ul>
+                <li><a href="#activity-0">👁️</a></li>
+                <li><a href="#activity-1">1</a></li>
+                <li><a href="#activity-2">2</a></li>
+                <li><a href="#activity-3">3</a></li>
+                <li><a href="#activity-4">4</a></li>
+            </ul>
+
+            <div class="sidebar-info">
+                <p>💡 Cada actividad está cuidadosamente diseñada para involucrar a los estudiantes.</p>
+                <p>⏱️ Se proporcionan estimaciones de tiempo para cada actividad para ayudarle a mantener el rumbo.</p>
+            </div>
+        </aside>
+
+        <main class="content">
+            <div class="progress-bar">
+                <div class="progress"></div>
+            </div>
+
+            <button id="toggle-dialogues">Mostrar todos los diálogos</button>
+
+            <!-- SECCIÓN "DE UN VISTAZO" (ANTES ACTIVITY-0) -->
+            <div class="activity-card" id="activity-0">
+                <h2><span class="book-icon">📝</span> De un Vistazo: Sesión Gnius</h2>
+                <p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para el facilitador.</p>
+                <div class="overview-table-container">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+                                <th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <strong>Objetivos:</strong>
+                                    <ul>
+                                        <li>Comprender la reputación digital positiva.</li>
+                                        <li>Diseñar un perfil digital ficticio con atributos positivos de forma guiada.</li>
+                                        <li>Crear un perfil digital.</li>
+                                        <li>Definir atributos positivos y reconocer riesgos.</li>
+                                        <li>Mantener coherencia entre publicaciones y valores.</li>
+                                        <li>Comprender cómo lo que se publica contribuye a la reputación en línea.</li>
+                                    </ul>
+                                    <strong>Secuencia de Clase:</strong>
+                                    <ul>
+                                        <li><strong class="tactic-highlight">Recuerdo Relámpago</strong></li>
+                                        <li><strong class="tactic-highlight">Conexión Ada</strong></li>
+                                        <li><strong class="tactic-highlight">Challenge Express: Misión Transmedia</strong></li>
+                                        <li><strong class="tactic-highlight">Ticket de Salida/Tweet de Aprendizaje</strong></li>
+                                    </ul>
+                                    <strong>Entregable Clave:</strong>
+                                    <ul>
+                                        <li>Diseño en equipo de una estrategia de lanzamiento transmedia (perfil ficticio y 3 publicaciones).</li>
+                                        <li>Presentación en equipo de la estrategia y justificación de reputación.</li>
+                                        <li>Creación individual de un "Principio de Reputación" (Tweet de Aprendizaje).</li>
+                                    </ul>
+                                </td>
+                                <td>
+                                    <strong>Materiales Específicos:</strong>
+                                    <ul>
+                                        <li>Proyector o pantalla interactiva.</li>
+                                        <li>Conexión a internet estable.</li>
+                                        <li>Chat de "Ada" activo y funcionando.</li>
+                                        <li>Presentación de diapositivas.</li>
+                                    </ul>
+                                    <strong>Preparación Previa para ESTA Sesión:</strong>
+                                    <ol>
+                                        <li><strong>Revisión de Misión (Interna):</strong>
+                                            <ul>
+                                                <li>Verificar conexión a internet.</li>
+                                                <li>Asegurar disponibilidad y carga de los dispositivos físicos (ej. tabletas, ordenadores).</li>
+                                                <li>Tener la presentación de diapositivas lista y en orden.</li>
+                                                <li>Probar el chat "Ada" para asegurar su operatividad.</li>
+                                            </ul>
+                                        </li>
+                                        <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- FIN DE LA SECCIÓN "DE UN VISTAZO" -->
+
+            <div class="activity-card" id="activity-1">
+                <h2>⚡ Actividad 1: Recuerdo Relámpago ⏰ 5 minutos</h2>
+                <p>Activar conocimientos de la Misión 8 (auditoría de privacidad) mediante categorización y pensamiento crítico.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Recuerdo Relámpago ⏰ 3 minutos</h3>
+                            <p>Proyecta Diapositiva 2. Recuerdo Relámpago: ¿Cuál sobra?</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Vamos a empezar con un análisis rápido. Les mostraré 4 conceptos de la auditoría de privacidad que hicimos. Tres son riesgos directos para nuestra información, uno no pertenece al grupo. Discutan y justifiquen cuál sobra. <br><br>(En pantalla se muestran: Ubicación en Tiempo Real, Perfil Público, Lista de Contactos, Biografía Creativa)”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Recuerdo Relámpago ⏰ 2 minutos</h3>
+                            <p>Realiza una breve reflexión guiada para cambiar el foco de la defensa a la construcción.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Correcto. ‘Biografía Creativa’ sobra porque no es un riesgo en sí mismo, es una herramienta de expresión. Ya sabemos cómo construir murallas para protegernos. Hoy, la misión cambia. 🛡️➡️🎨 Una supernova no es una explosión destructiva, es la creación de nuevos elementos. Hoy no vamos a proteger, vamos a construir. Nos convertiremos en arquitectos de reputaciones.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-2">
+                <h2>⚡ Actividad 2: Conexión Ada ⏰ 20 minutos</h2>
+                <p>Explorar de forma individual los conceptos de coherencia, valores y cómo las publicaciones construyen una narrativa personal.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Conexión Ada ⏰ 0 minutos</h3>
+                            <p>Proyecta Diapositiva 3. Conexión Ada: Misión Supernova.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Ahora, conéctense a la plataforma. Ada los guiará en el proceso de analizar cómo diferentes tipos de publicaciones crean una imagen específica. Observen con atención cómo se conectan las acciones y los resultados. La clave de activación de hoy es: Misión Supernova ✨. Escríbanla cuando se las pida.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Conexión Ada ⏰ 20 minutos</h3>
+                            <p>Proyecta Diapositiva 4. Timer 20 min.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-3">
+                <h2>⚡ Actividad 3: Challenge Express: Misión Transmedia ⏰ 10 minutos</h2>
+                <p>Contextualizar la creación de una reputación como un acto de diseño estratégico y narrativo.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Challenge Express: Misión Transmedia ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 5. Challenge Express: El Lanzamiento del Perfil.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Atención, arquitectos. Imaginen que una nueva plataforma, ‘Orbita’, va a ser lanzada. Es una oportunidad para empezar de cero, con una reputación digital diseñada intencionalmente. <br>Este es su reto: En equipos, son una agencia de comunicación. Su cliente es un personaje ficticio que quiere lanzar su perfil en ‘Orbita’. Su misión es diseñar una estrategia de lanzamiento transmedia: crear el perfil y las primeras 3 publicaciones que definirán su reputación desde el día uno.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Challenge Express: Misión Transmedia ⏰ 3 minutos</h3>
+                            <p>Pide a los equipos que elijan 2 o 3 atributos o valores clave para su personaje ficticio y los escriban como base de su estrategia.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Primero, definan la esencia de su personaje. ¿Qué quieren que la gente piense de él o ella al ver su perfil? Elijan 2 o 3 atributos o valores clave. Escríbanlos. Esta es la base de su estrategia. Por ejemplo: ‘Innovador y curioso’. Todo lo que publiquen debe reforzar esa idea. Tienen 3 minutos.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Challenge Express: Misión Transmedia ⏰ 3 minutos</h3>
+                            <p>Pide a los equipos que diseñen el contenido de las 3 primeras publicaciones, que deben ser coherentes con la identidad y usar distintos formatos (texto, boceto de imagen, idea para video).</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">"“Ahora, diseñen las 3 primeras publicaciones. Deben ser coherentes y usar distintos formatos. Por ejemplo, si su personaje es ‘Creativo y Colaborativo’, podrían planear:<br>1. Post 1 (Imagen): Un dibujo original con una pregunta abierta. 🎨<br>2. Post 2 (Video Corto): Un time-lapse de su proceso creativo.<br>3. Post 3 (Texto): Compartiendo el trabajo de otro artista que admiran. <br>Diseñen su contenido de lanzamiento. Tienen 3 minutos.”"</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 4: Challenge Express: Misión Transmedia ⏰ 2 minutos</h3>
+                            <p>Pide a cada equipo que presente su estrategia de lanzamiento, explicando la reputación que buscaron construir y cómo las 3 publicaciones trabajan juntas para lograrlo.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Cada ‘agencia’ presentará ahora su estrategia. Dígannos qué reputación buscaron construir y cómo sus 3 publicaciones trabajan juntas para lograr ese objetivo. Escuchen las estrategias de los demás. Hay muchas formas de construir una imagen positiva.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="activity-card" id="activity-4">
+                <h2>⚡ Actividad 4: Ticket de Salida/Tweet de Aprendizaje ⏰ 5 minutos</h2>
+                <p>Sintetizar el aprendizaje en un principio personal sobre la construcción intencional de la reputación.</p>
+                <div class="steps">
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 1: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Proyecta Diapositiva 9. Tweet de Aprendizaje.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Para cerrar, anoten una idea clave que se quieran llevar. Una frase que resuma su enfoque para construir una reputación en línea.<br>Ejemplo del maestro: Mi reputación no es lo que soy, es lo que consistentemente demuestro. Cada post es un ladrillo. #ReputacionIntencional<br>Piensen en cómo podrían aplicar esto en otra situación. Eso es lo que hace que valga la pena.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 2: Ticket de Salida/Tweet de Aprendizaje ⏰ 2 minutos</h3>
+                            <p>Pide a los estudiantes que compartan su frase con un compañero y escuchen su idea.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Compartan su frase con la persona de al lado. Escuchen su idea. ¿En qué se parecen? ¿Qué pueden aprender de su perspectiva? El análisis mejora con el diálogo.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="step-card">
+                        <div class="step-content">
+                            <h3>Paso 3: Ticket de Salida/Tweet de Aprendizaje ⏰ 1 minutos</h3>
+                            <p>Proyecta Diapositiva 10. Reflexión final.</p>
+                        </div>
+                        <div class="collapsible">
+                            <button type="button" class="collapsible-button">Diálogo Sugerido</button>
+                            <div class="collapsible-content">
+                                <p class="dialogue assistant">“Hoy no solo hablaron de reputación, la diseñaron. Entendieron que una imagen digital no es algo que simplemente ‘pasa’, es algo que se construye con estrategia, coherencia y propósito. Se han convertido en arquitectos de narrativas. Misión completada.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
